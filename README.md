@@ -34,4 +34,8 @@ pyinstaller --onefile --add-binary "...\Python\Python312\Lib\site-packages\glfw\
 * Window hiding (minimizing) may hide the window from recognition by OBS/etc.
     * In this case, please unhide the window. The visibility doesn't matter, it depends only on window state. <br>
     _You can still open/put anything over the window. It will still be rendered successfully!_
-
+* When the https://sayodevice.com/ is opened and connected to your Device, the render might blink or have vertical desynchronization.
+    * After the website is closed/disconnected everything will render as before.
+<br>
+* Any worst-case scenario
+    * Restart the app, it will be enough :heart:
